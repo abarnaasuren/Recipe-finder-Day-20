@@ -1,0 +1,128 @@
+* {
+    padding: 10px;
+  }
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/top-view-frame-with-spices-bowls_23-2148596781.jpg?t=st=1658548841~exp=1658549441~hmac=66e43904447d620e25894ec8976764620d31c9d8bb270cb2f5a31da2514e7aae&w=1060");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  h1 {
+    font-family: "Suez One", serif;
+  }
+  .container {
+    text-align: center;
+  }
+  .form-group {
+    text-align: center;
+    margin: auto;
+  }
+  /* .fa {
+    color: black;
+  } */
+  .card {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .mealDetails {
+    background: #e7f6f2;
+    margin: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #100f0f;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    /* visibility: hidden; */
+    /* display: none; */
+    padding: 2rem 0;
+  }
+  
+  .recipeClose {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .recipeImg {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5rem;
+  }
+  
+  .recipeLink {
+    margin: 1.4rem 0;
+  }
+  
+  .recipeLink a {
+    margin: 1.4rem 0;
+    color: #100f0f;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .showRecipe {
+    background: #e7f6f2;
+    margin: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #100f0f;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    /* visibility: visible; */
+    /* display: block; */
+    padding: 2rem 0;
+  }
+  
+  .notfound {
+    font-size: 1.8rem !important;
+    font-family: "Suez One", serif;
+    width: 100%;
+  }
+  
+  .found {
+    font-size: 1.8rem !important;
+    font-family: "Suez One", serif;
+    width: 100%;
+  }
+  
+  .hidden {
+    display: none;
+  }
